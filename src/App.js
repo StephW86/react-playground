@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+// import Button from './button';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
 }
+
+
+// button app
+// function App() {
+//   const buttonText = [ 1, 2, 3 ];
+
+//   return (
+//     <div className="App">
+
+//       <div>
+//         {buttonText.map((number) => (
+//           <Button text={number}>Button {number}</Button>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// }
 
 export default App;
